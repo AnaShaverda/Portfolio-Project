@@ -385,7 +385,8 @@ mark {
     gap: 10px;
   }
   .iconDiv4,
-  .iconDiv2 {
+  .iconDiv2,
+  .iconDiv7 {
     display: none;
   }
   .projectContainer {
