@@ -69,6 +69,7 @@ a {
   }
   .img {
     width: -webkit-fill-available;
+    height: fit-content;
   }
   .tape {
     display: none;
