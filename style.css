@@ -320,10 +320,10 @@ mark {
     align-items: center;
     gap: 10px;
   }
-  /* .iconDiv4,
+  .iconDiv4,
   .iconDiv2 {
-    padding: 2px;
-  } */
+    display: none;
+  }
   .projectContainer {
     width: 50%;
   }
