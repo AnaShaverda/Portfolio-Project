@@ -31,10 +31,20 @@ body {
 }
 .contact {
   display: flex;
-  justify-content: center;
-
+  justify-content: end;
+  width: 70%;
   gap: 40px;
   border: 2px dashed black;
+  padding: 30px;
+  position: relative;
+  margin-top: 40px;
+}
+.footer {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  gap: 40px;
+  border: 2px solid black;
   padding: 30px;
   position: relative;
   margin-top: 40px;
@@ -335,7 +345,7 @@ mark {
   justify-content: start;
   gap: 20px;
   flex-direction: column;
-  width: 60%;
+  width: 80%;
 }
 .data {
   color: black;
