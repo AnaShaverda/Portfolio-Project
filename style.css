@@ -223,6 +223,10 @@ mark {
   background-image: url("./img/frame.png");
   background-color: #cce4fe;
 }
+.proj2 {
+  background-image: url("./img/frame2.png");
+  background-color: #eee6e8;
+}
 .pin {
   position: absolute;
   top: -5%;
