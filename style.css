@@ -44,7 +44,8 @@ body {
   display: flex;
   align-items: center;
   justify-content: center;
-  width: 40px;
+  /* width: 40px;
+  height: 40px; */
   aspect-ratio: 1 / 1;
   position: absolute;
   bottom: -20px;
@@ -142,7 +143,8 @@ mark {
   position: absolute;
   background-color: #c5a1ff;
   border-radius: 100%;
-  width: 40px;
+  /* width: 40px;
+  height: 40px; */
   aspect-ratio: 1 / 1;
   position: absolute;
   padding: 10px;
@@ -259,6 +261,7 @@ mark {
 }
 .number {
   width: 40px;
+  height: 40px;
   aspect-ratio: 1 / 1;
   text-align: center;
   display: flex;
@@ -319,6 +322,10 @@ mark {
     width: 100%;
     align-items: center;
     gap: 10px;
+  }
+  .iconDiv4,
+  .iconDiv2 {
+    padding: 2px;
   }
 }
 
