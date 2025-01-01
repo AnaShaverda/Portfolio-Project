@@ -62,9 +62,10 @@ a {
   .personaWrapper {
     flex-direction: column;
     text-align: center;
+    gap: 20px;
   }
   .img {
-    width: 85%;
+    width: -webkit-fill-available;
   }
   .tape {
     display: none;
