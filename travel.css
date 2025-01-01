@@ -57,6 +57,9 @@ a {
   height: fit-content;
   padding: 20px;
 }
+.m-text {
+  text-align: start;
+}
 @media (max-width: 1000px) {
   .infoContainer,
   .personaWrapper {

@@ -334,6 +334,7 @@ mark {
   letter-spacing: 0.8px;
   margin-top: 5px;
   margin-bottom: 5px;
+  text-align: start;
 }
 .s-text {
   font-size: calc(0.7rem + 0.3vw) !important;
