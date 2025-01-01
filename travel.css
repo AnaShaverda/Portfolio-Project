@@ -46,11 +46,13 @@ a {
   border: 3px dashed black;
   padding: 20px;
 }
-.personaWrapper {
+.personaWrapper,
+.userFlowWrapper {
   display: flex;
   margin-top: 40px;
   gap: 20px;
   position: relative;
+  justify-content: center;
 }
 .personaScenatio {
   border: 2px solid black;
@@ -62,6 +64,39 @@ a {
 }
 .persona {
   width: fit-content;
+}
+
+.userFlow {
+  text-align: center;
+  width: 800px;
+}
+.login {
+  display: flex;
+  gap: 2%;
+  justify-content: center;
+  margin-bottom: 20px;
+  /* border: 3px dashed black;
+  border-right: 5px solid black;
+  border-bottom: 5px solid black; */
+}
+.flex {
+  display: flex;
+  gap: 4%;
+}
+.login img {
+  width: 15%;
+  border-radius: 20px;
+}
+.pagesContainer {
+  text-align: left;
+}
+.flexDiv {
+  margin-top: 20px;
+  text-align: left;
+  border: 2px solid black;
+  border-left: 3px dashed black;
+  border-right: 3px dashed black;
+  padding: 2%;
 }
 @media (max-width: 1000px) {
   .infoContainer,
@@ -76,5 +111,27 @@ a {
   }
   .tape {
     display: none;
+  }
+  .userFlow {
+    width: 100%;
+  }
+  .flex {
+    flex-direction: column;
+  }
+}
+
+.flex {
+  display: flex;
+  justify-content: space-between;
+}
+
+@media (max-width: 1200px) {
+  .personaWrapper {
+    flex-direction: column;
+    text-align: center;
+    gap: 20px;
+  }
+  .login img {
+    border-radius: 12px;
   }
 }
