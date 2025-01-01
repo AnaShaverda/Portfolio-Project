@@ -54,7 +54,7 @@ body {
   padding: 10px;
   border: 1px solid black;
   border-left: 5px solid black;
-  border-radius: 100%;
+  border-radius: 50%;
   -webkit-box-shadow: 8px 8px 0px 0px rgba(0, 0, 0, 0.16);
   -moz-box-shadow: 8px 8px 0px 0px rgba(0, 0, 0, 0.16);
   box-shadow: 8px 8px 0px 0px rgba(0, 0, 0, 0.16);
@@ -173,15 +173,15 @@ mark {
   border-bottom: 5px solid black;
   border-left: 5px solid black;
   display: flex;
-  /* justify-content: center; */
   flex-direction: column;
   background-color: white;
   align-items: center;
-  height: 400px;
+  /* height: 400px; */
+  padding: 20px;
 }
 .project {
   height: 300px;
-  width: 90%;
+  width: 100%;
   background-repeat: no-repeat;
   background-position: center;
   background-size: contain;
@@ -189,6 +189,7 @@ mark {
 }
 .proj1 {
   background-image: url("./img/frame.png");
+  background-color: #cce4fe;
 }
 .pin {
   position: absolute;
@@ -219,6 +220,7 @@ mark {
   width: 96%;
   padding: 2px;
   align-items: center;
+  margin-top: 10px;
 }
 .projectTitleContainer button {
   border: none;
@@ -289,16 +291,11 @@ mark {
   font-size: calc(0.7rem + 0.3vw) !important;
 }
 @media (max-width: 1000px) {
-  .projectContainer {
-    width: 45%;
-  }
   .projects {
     gap: 20px;
   }
-}
-@media (max-width: 600px) {
-  .projectContainer {
-    width: 100%;
+  .project {
+    height: 250px;
   }
 }
 
@@ -323,9 +320,17 @@ mark {
     align-items: center;
     gap: 10px;
   }
-  .iconDiv4,
+  /* .iconDiv4,
   .iconDiv2 {
     padding: 2px;
+  } */
+  .projectContainer {
+    width: 50%;
+  }
+}
+@media (max-width: 500px) {
+  .projectContainer {
+    width: 100%;
   }
 }
 
